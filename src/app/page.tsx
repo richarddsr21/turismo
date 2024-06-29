@@ -1,10 +1,15 @@
-import Image from "next/image";
 import { Header } from "./(website)/components/Header";
+import { Hero } from "./(website)/components/Hero";
 
 export default function Home() {
   return (
-    <main>
-      <Header />
-    </main>
+    <section className="mx-auto">
+      <header className="">
+        <Header />
+      </header>
+      <main className="">
+        <Hero />
+      </main>
+    </section>
   );
 }
